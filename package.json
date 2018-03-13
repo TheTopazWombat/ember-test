@@ -1,0 +1,55 @@
+{
+  "name": "ember-sass-express-starter",
+  "version": "0.3.7",
+  "description": "Boilerplate for Ember, Sass, Express, MongoDB",
+  "keywords": [
+    "scaffold",
+    "generator",
+    "framework",
+    "boilerplate",
+    "ember-tools",
+    "mongoose",
+    "bootstrap",
+    "skeleton",
+    "express",
+    "mongodb",
+    "crud",
+    "sass",
+    "scss",
+    "rest",
+    "ember",
+    "mvc"
+  ],
+  "homepage": "https://github.com/sahat/generator-ember-sass-express",
+  "bugs": "https://github.com/sahat/generator-ember-sass-express/issues",
+  "author": "Sahat Yalkabov",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/sahat/generator-ember-sass-express.git"
+  },
+  "scripts": {
+    "start": "node ./bin/www",
+    "test": "node_modules/.bin/mocha test --reporter spec"
+  },
+  "dependencies": {
+    "bcrypt": "*",
+    "body-parser": "~1.8.1",
+    "cookie-parser": "~1.3.3",
+    "express": "~4.9.0",
+    "express-session": "~1.9.3",
+    "method-override": "~2.3.0",
+    "morgan": "~1.3.0",
+    "mysql": "~2.0.1",
+    "node-gyp": "^3.6.2",
+    "node-sass": "~0.8.0",
+    "passport": "*",
+    "passport-local": "*",
+    "sequelize": "~1.7.0-rc2",
+    "serve-favicon": "~2.1.3",
+    "sqlite3": "~2.2.0"
+  },
+  "engines": {
+    "node": ">= 0.10.0"
+  },
+  "license": "MIT"
+}
